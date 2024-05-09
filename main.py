@@ -23,6 +23,8 @@ from collections import defaultdict
 from pathlib import Path
 from utils.capnums import Camera
 from utils.rtsp_win import Window
+from ui.resources_rc import *
+
 
 import numpy as np
 import threading

@@ -254,7 +254,7 @@ background-color: rgba(114, 129, 214, 59);
 }</string>
                </property>
                <property name="text">
-                <string>隐藏边栏</string>
+                <string>Hide</string>
                </property>
                <property name="icon">
                 <iconset theme="zoom-out">
@@ -343,7 +343,7 @@ background-color: rgba(114, 129, 214, 59);
 }</string>
                </property>
                <property name="text">
-                <string>加载文件</string>
+                <string>Load files</string>
                </property>
               </widget>
              </item>
@@ -377,7 +377,7 @@ background-color: rgba(114, 129, 214, 59);
 }</string>
                </property>
                <property name="text">
-                <string>摄像头</string>
+                <string>Camera</string>
                </property>
                <property name="checkable">
                 <bool>false</bool>
@@ -574,7 +574,7 @@ background-color: rgba(255, 255, 255,0);
                 <string notr="true">font: 700 italic 11pt &quot;Segoe UI&quot;;</string>
                </property>
                <property name="text">
-                <string>YOLOv8-CSDN迪菲赫尔曼版</string>
+                <string>Wildfire Sentinel</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
@@ -920,7 +920,7 @@ padding-left:12px;
 font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                            </property>
                            <property name="text">
-                            <string>类别数量</string>
+                            <string>Total Classes</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -1114,7 +1114,7 @@ padding-left:12px;
 font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                            </property>
                            <property name="text">
-                            <string>目标数量</string>
+                            <string>Total Targets</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -1311,7 +1311,7 @@ font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                             <number>-1</number>
                            </property>
                            <property name="text">
-                            <string>每秒帧数</string>
+                            <string>Fps</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -1511,7 +1511,7 @@ font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                             <number>-1</number>
                            </property>
                            <property name="text">
-                            <string>模型</string>
+                            <string>Model Used</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -1909,7 +1909,7 @@ color: rgba(255, 255, 255, 240);
 font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                    </property>
                    <property name="text">
-                    <string>设置</string>
+                    <string>Settings</string>
                    </property>
                    <property name="alignment">
                     <set>Qt::AlignCenter</set>
@@ -2011,7 +2011,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>模型</string>
+                       <string>Model</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -2192,7 +2192,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>IoU阈值</string>
+                       <string>IoU</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -2420,7 +2420,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>置信度阈值</string>
+                       <string>Conf</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -2648,7 +2648,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>延迟(ms)</string>
+                       <string>Delay(ms)</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -2876,7 +2876,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>保存</string>
+                       <string>Save</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -2921,7 +2921,7 @@ padding-left: 10px;
         }</string>
                       </property>
                       <property name="text">
-                       <string>保存 MP4/JPG</string>
+                       <string>Save MP4/JPG</string>
                       </property>
                      </widget>
                     </item>
@@ -2953,7 +2953,7 @@ padding-left: 10px;
         }</string>
                       </property>
                       <property name="text">
-                       <string>保存 Labels(.txt)</string>
+                       <string>Save Labels(.txt)</string>
                       </property>
                      </widget>
                     </item>
@@ -3666,7 +3666,7 @@ padding-left:12px;
 font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                            </property>
                            <property name="text">
-                            <string>类别数量</string>
+                            <string>Total Classes</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -3860,7 +3860,7 @@ padding-left:12px;
 font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                            </property>
                            <property name="text">
-                            <string>目标数量</string>
+                            <string>Total Targets</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -4057,7 +4057,7 @@ font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                             <number>-1</number>
                            </property>
                            <property name="text">
-                            <string>每秒帧数</string>
+                            <string>Fps</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -4257,7 +4257,7 @@ font: 700 italic 16pt &quot;Segoe UI&quot;;</string>
                             <number>-1</number>
                            </property>
                            <property name="text">
-                            <string>模型</string>
+                            <string>Model Used</string>
                            </property>
                            <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -4757,7 +4757,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>模型</string>
+                       <string>Model</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -4938,7 +4938,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>IoU阈值</string>
+                       <string>IoU</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -5166,7 +5166,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>置信度阈值</string>
+                       <string>Conf</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
@@ -5394,7 +5394,7 @@ font: 700 13pt &quot;Nirmala UI&quot;;
 }</string>
                       </property>
                       <property name="text">
-                       <string>延迟(ms)</string>
+                       <string>Delay(ms)</string>
                       </property>
                       <property name="icon">
                        <iconset theme="zoom-out">
