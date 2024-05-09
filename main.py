@@ -588,6 +588,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setAttribute(Qt.WA_TranslucentBackground)  # 圆角透明
         self.setWindowFlags(Qt.FramelessWindowHint)  # 设置窗口标志: 隐藏窗口边框
         UIFuncitons.uiDefinitions(self)  # 自定义介面定义
+        
 
         # 初始页面
         self.task = ""
@@ -599,9 +600,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pushButton_segment.clicked.connect(self.button_segment)
         # self.pushButton_track.setEnabled(False)
 
-        self.src_file_button.setEnabled(False)
-        self.src_cam_button.setEnabled(False)
-        self.src_rtsp_button.setEnabled(False)
+        #self.src_file_button.setEnabled(False)
+        #self.src_cam_button.setEnabled(False)
+        #self.src_rtsp_button.setEnabled(False)
+        
         ####################################image or video####################################
         # 显示模块阴影
         UIFuncitons.shadow_style(self, self.Class_QF, QColor(162, 129, 247))
@@ -759,6 +761,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # 其他功能按钮
         self.save_res_button_cam.toggled.connect(self.cam_is_save_res)  # 保存图片选项
         self.save_txt_button_cam.toggled.connect(self.cam_is_save_txt)  # 保存标签选项
+        # Automatically trigger button_detect when the window opens
+        self.button_detect()
+        
         ####################################camera####################################
 
         self.ToggleBotton.clicked.connect(
