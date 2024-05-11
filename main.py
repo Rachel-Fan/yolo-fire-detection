@@ -1735,11 +1735,11 @@ if __name__ == "__main__":
     
     # Uncomment the following lines if you need to handle camera input in separate threads
     # Create camera thread
-    # camera_thread = CameraThread()
+    camera_thread = CameraThread()
     # Connect the camera's signal to receive captured images to a slot in Home
-    # camera_thread.imageCaptured.connect(Home.cam_data)
+    camera_thread.imageCaptured.connect(Home.cam_data)
     # Start the camera thread
-    # camera_thread.start()
+    camera_thread.start()
     
     # Display the main window
     Home.show()
